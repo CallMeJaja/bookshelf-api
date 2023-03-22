@@ -224,7 +224,7 @@ const ubahBukuId = (request, h) => {
   return response;
 };
 
-// FUNGSI HAPUS BUKU
+// Menghapus Data Buku
 const hapusBuku = (request, h) => {
   const { id } = request.params;
   const index = books.findIndex((bId) => bId.id === id);
