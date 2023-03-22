@@ -55,7 +55,7 @@ const tambahBuku = (request, h) => {
       .code(400);
     return response;
   }
-  //   Jika Semua Kriteria di Penuhi
+  //   Jika Semua Kriteria terpenuhi
   else if (
     !(bukuBaru === undefined && bukuBaru.readPage >= bukuBaru.pageCount)
   ) {
